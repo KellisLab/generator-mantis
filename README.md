@@ -1,6 +1,6 @@
 # generator-mantis
 
-[Yeoman](https://yeoman.io) generator that scaffolds [Mantis](https://home.withmantis.com) extension bundles: manifest, extension host entry, panel UI, optional Python backend, and a small script to build `bundle.json` for import.
+[Yeoman](https://yeoman.io) generator that scaffolds [Mantis](https://home.withmantis.com) extension bundles: manifest, extension host entry, panel UI, optional Python backend, and a script that builds **`package.mantisx`** (zip for API upload) plus **`bundle.json`**.
 
 ## Install
 
@@ -18,7 +18,7 @@ yo mantis
 node pack-bundle.cjs
 ```
 
-Import `bundle.json` in Mantis (or zip per backend docs). Add another panel from the same folder:
+Import **`package.mantisx`** or **`bundle.json`** in Mantis. Add another panel from the same folder:
 
 ```bash
 yo mantis:panel

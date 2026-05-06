@@ -179,9 +179,9 @@ module.exports = class extends Generator {
     this.log("");
     this.log(chalk.green("Next:"));
     this.log(
-      `  ${chalk.cyan("node pack-bundle.cjs")}  → writes ${chalk.yellow(
-        "bundle.json"
-      )} for Mantis import`
+      `  ${chalk.cyan("node pack-bundle.cjs")}  → ${chalk.yellow(
+        "package.mantisx"
+      )} (zip) + ${chalk.yellow("bundle.json")} for Mantis import`
     );
     this.log(
       `  ${chalk.cyan(
