@@ -18,8 +18,8 @@ Check Yeoman sees it:
 
 ```bash
 yo --generators
-# expect: mantis (and mantis:panel as a subgenerator when you run yo mantis:panel)
 ```
+(`mantis` should appear in the list.)
 
 Upgrade later:
 
